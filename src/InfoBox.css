@@ -1,9 +1,1 @@
-.cardContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.infobox{
-    text-align: center;
-}
+/* InfoBox styles - now handled by Material-UI */
