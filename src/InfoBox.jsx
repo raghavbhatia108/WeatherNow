@@ -20,12 +20,13 @@ import {
 } from "@mui/icons-material";
 import "./InfoBox.css";
 
+import RAIN_URL from "../assets/weather-effects-composition.jpg";
+
 export default function InfoBox({ info }) {
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const HOT_URL = "/src/assets/5741223.jpg";
   const COLD_URL = "/src/assets/pexels-reneterp-25763.jpg";
-  const RAIN_URL = "/src/assets/weather-effects-composition.jpg";
 
   const getWeatherIcon = () => {
     if (info.humidity > 80)
